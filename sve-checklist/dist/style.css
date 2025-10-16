@@ -1,0 +1,223 @@
+/* ==============================
+   GLOBAL STYLES
+============================== */
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: system-ui, sans-serif;
+  overflow-y: scroll;
+}
+
+.title {
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+
+/* ==============================
+   BIG BOXES (BB)
+============================== */
+.big-box {
+  width: 80%;
+  min-height: 45vh;
+  background-color: #222;
+  border-radius: 12px;
+  border: 2px solid #444;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.minimize-btn {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.big-box.minimized {
+  min-height: auto;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 0.5rem;
+}
+
+
+.big-box.minimized .medium-container {
+  display: none;
+}
+
+
+/* ==============================
+   MEDIUM BOXES (MB)
+============================== */
+.medium-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.medium-box {
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 8px;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.medium-title {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+
+/* ==============================
+   SMALL BOXES (SB)
+============================== */
+.small-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+  justify-content: center;
+}
+
+.small-box {
+  width: 5rem;
+  height: 5.5rem;
+  background-color: #444;
+  border: 1px solid #777;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3rem;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.2s ease;
+}
+
+.small-box:hover {
+  transform: scale(1.05);
+}
+
+/* Image inside small box */
+.small-box-img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: contain;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+/* Label under image */
+.small-box-label {
+  font-size: 0.8rem;              /* slightly larger text */
+  font-weight: 600;               /* bolder for better readability */
+  text-align: center;
+  color: #fff;                    /* brighter text color */
+  text-shadow: 0 0 4px #000;      /* subtle glow for contrast on dark backgrounds */
+  margin-top: 0.25rem;
+  line-height: 1.1;
+  pointer-events: none;           /* ensures clicks still register on the box */
+}
+
+.small-box.completed .small-box-label {
+  color: #ffcccc;                 /* softer pink tint on completed items */
+  text-shadow: 0 0 5px #660000;   /* subtle red glow to match the ✖ */
+}
+
+/* Completed effect: dim + X overlay */
+.small-box.completed {
+  filter: brightness(0.4);
+  position: relative;
+}
+
+.small-box.completed::after {
+  content: "✖";
+  position: absolute;
+  font-size: 2rem;
+  color: red;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+
+
+/* ==============================
+   TOOLTIP STYLING
+============================== */
+.tooltip {
+  position: absolute;
+  background-color: #444;
+  color: white;
+  border: 1px solid #666;
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 200px;
+  z-index: 100;
+  pointer-events: none;
+  display: none;
+}
+
+.tooltip-header {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.tooltip-subheader {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.tooltip-divider {
+  width: 95%;
+  border: 0;
+  border-top: 1px solid #777;
+  margin: 0.25rem auto;
+}
+
+.tooltip-list {
+  margin: 0.3rem 0 0 1rem;
+  padding: 0;
+  font-size: 0.9rem;
+  list-style-type: disc;
+}
+
+.tooltip-list li {
+  margin-bottom: 0.25rem;
+  line-height: 1.2;
+}
