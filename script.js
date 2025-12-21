@@ -443,10 +443,10 @@ const boilerRoomData = [
         title: "Geologist's",
         required: 4,
         items: [
-          { id: "box4-m2-s1", name: "Quartz", season: [SEASONS.ANY], amount: 1, image: "Geologist/Quartz.png", tooltipText: "Foraging in Mines OR Stone Golems (floors 31–39, 10% Chance)", completed: false},
-          { id: "box4-m2-s2", name: "Earth Crystal", season: [SEASONS.ANY], amount: 1, image: "Geologist/Earth_Crystal.png", tooltipText: "Foraging in Mines (floors 1–39) OR Geodes / Omni-Geodes OR Duggies (10% Chance)", completed: false},
-          { id: "box4-m2-s3", name: "Frozen Tear", season: [SEASONS.ANY], amount: 1, image: "Geologist/Frozen_Tear.png", tooltipText: "Foraging in Mines (floors 41–79) OR Frozen Geodes / Omni-Geodes OR Dust Mites (2% Chance)", completed: false},
-          { id: "box4-m2-s4", name: "Fire Quartz", season: [SEASONS.ANY], amount: 1, image: "Geologist/Fire_Quartz.png", tooltipText: "Foraging in Mines (floors 80+) OR Magma Geodes / Omni-Geodes", completed: false},
+          { id: "box4-m2-s1", name: "Quartz", season: [SEASONS.ANY], amount: 1, image: "Gelogist/Quartz.png", tooltipText: "Foraging in Mines OR Stone Golems (floors 31–39, 10% Chance)", completed: false},
+          { id: "box4-m2-s2", name: "Earth Crystal", season: [SEASONS.ANY], amount: 1, image: "Gelogist/Earth_Crystal.png", tooltipText: "Foraging in Mines (floors 1–39) OR Geodes / Omni-Geodes OR Duggies (10% Chance)", completed: false},
+          { id: "box4-m2-s3", name: "Frozen Tear", season: [SEASONS.ANY], amount: 1, image: "Gelogist/Frozen_Tear.png", tooltipText: "Foraging in Mines (floors 41–79) OR Frozen Geodes / Omni-Geodes OR Dust Mites (2% Chance)", completed: false},
+          { id: "box4-m2-s4", name: "Fire Quartz", season: [SEASONS.ANY], amount: 1, image: "Gelogist/Fire_Quartz.png", tooltipText: "Foraging in Mines (floors 80+) OR Magma Geodes / Omni-Geodes", completed: false},
         ],
       },
       {
@@ -455,7 +455,7 @@ const boilerRoomData = [
         required: 2,
         items: [
           { id: "box4-m3-s1", name: "Slime", season: [SEASONS.ANY], amount: 99, image: "Adventurer/Slime.png", tooltipText: "Killing Slimes in Mines (Any Floor)", completed: false},
-          { id: "box4-m3-s2", name: "Bat Wings", season: [SEASONS.ANY], amount: 10, image: "Adventurer/Bat_Wings.png", tooltipText: "Killing Bats in Mines (Any Floor past 30)", completed: false},
+          { id: "box4-m3-s2", name: "Bat Wings", season: [SEASONS.ANY], amount: 10, image: "Adventurer/Bat_Wing.png", tooltipText: "Killing Bats in Mines (Any Floor past 30)", completed: false},
           { id: "box4-m3-s3", name: "Solar Essence", season: [SEASONS.ANY], amount: 1, image: "Adventurer/Solar_Essence.png", tooltipText: "Ghosts (51–79) OR Metal Heads (81–119) OR Squid Kids (91–119)", completed: false},
           { id: "box4-m3-s4", name: "Void Essence", season: [SEASONS.ANY], amount: 1, image: "Adventurer/Void_Essence.png", tooltipText: "Shadow Brutes / Shamans (Floors 80+)", completed: false},
         ],
