@@ -159,11 +159,11 @@ const pantryData = [
         title: "Spring Crops",
         required: 5,
         items: [
-          { id: "box2-m1-s1", name: "Parsnip", amount: 1, image: "SVEITEMS/Spring_Crops/Parsnip.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
-          { id: "box2-m1-s2", name: "Green Bean", amount: 1, image: "SVEITEMS/Spring_Crops/Green_Bean.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
-          { id: "box2-m1-s3", name: "Cauliflower", amount: 1, image: "SVEITEMS/Spring_Crops/Cauliflower.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
-          { id: "box2-m1-s4", name: "Potato", amount: 1, image: "SVEITEMS/Spring_Crops/Potato.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
-          { id: "box2-m1-s5", name: "Cucumber", amount: 1, image: "SVEITEMS/Spring_Crops/Cucumber.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false}
+          { id: "box2-m1-s1", name: "Parsnip", amount: 1, image: "Spring_Crops/Parsnip.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
+          { id: "box2-m1-s2", name: "Green Bean", amount: 1, image: "Spring_Crops/Green_Bean.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
+          { id: "box2-m1-s3", name: "Cauliflower", amount: 1, image: "Spring_Crops/Cauliflower.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
+          { id: "box2-m1-s4", name: "Potato", amount: 1, image: "Spring_Crops/Potato.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
+          { id: "box2-m1-s5", name: "Cucumber", amount: 1, image: "Spring_Crops/Cucumber.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false}
         ]
       },
       {
@@ -171,11 +171,11 @@ const pantryData = [
         title: "Summer Crops",
         required: 5,
         items: [
-          { id: "box2-m2-s1", name: "Tomato", amount: 1, image: "SVEITEMS/Summer_Crops/Tomato.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
-          { id: "box2-m2-s2", name: "Hot Pepper", amount: 1, image: "SVEITEMS/Summer_Crops/Hot_Pepper.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
-          { id: "box2-m2-s3", name: "Blueberry", amount: 1, image: "SVEITEMS/Summer_Crops/Blueberry.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
-          { id: "box2-m2-s4", name: "Melon", amount: 1, image: "SVEITEMS/Summer_Crops/Melon.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
-          { id: "box2-m2-s5", name: "Butternut Squash", amount: 1, image: "SVEITEMS/Summer_Crops/Butternut_Squash.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false}
+          { id: "box2-m2-s1", name: "Tomato", amount: 1, image: "Summer_Crops/Tomato.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
+          { id: "box2-m2-s2", name: "Hot Pepper", amount: 1, image: "Summer_Crops/Hot_Pepper.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
+          { id: "box2-m2-s3", name: "Blueberry", amount: 1, image: "Summer_Crops/Blueberry.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
+          { id: "box2-m2-s4", name: "Melon", amount: 1, image: "Summer_Crops/Melon.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
+          { id: "box2-m2-s5", name: "Butternut Squash", amount: 1, image: "Summer_Crops/Butternut_Squash.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false}
         ]
       },
       {
@@ -183,11 +183,11 @@ const pantryData = [
         title: "Fall Crops",
         required: 5,
         items: [
-          { id: "box2-m3-s1", name: "Corn", amount: 1, image: "SVEITEMS/Fall_Crops/Corn.png", tooltipText: "Summer Crop OR Fall Crop", season: [SEASONS.SUMMER, SEASONS.FALL], completed: false},
-          { id: "box2-m3-s2", name: "Eggplant", amount: 1, image: "SVEITEMS/Fall_Crops/Eggplant.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false},
-          { id: "box2-m3-s3", name: "Pumpkin", amount: 1, image: "SVEITEMS/Fall_Crops/Pumpkin.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false},
-          { id: "box2-m3-s4", name: "Yam", amount: 1, image: "SVEITEMS/Fall_Crops/Yam.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false},
-          { id: "box2-m3-s5", name: "Sweet Potato", amount: 1, image: "SVEITEMS/Fall_Crops/Sweet_Potato.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false}
+          { id: "box2-m3-s1", name: "Corn", amount: 1, image: "Fall_Crops/Corn.png", tooltipText: "Summer Crop OR Fall Crop", season: [SEASONS.SUMMER, SEASONS.FALL], completed: false},
+          { id: "box2-m3-s2", name: "Eggplant", amount: 1, image: "Fall_Crops/Eggplant.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false},
+          { id: "box2-m3-s3", name: "Pumpkin", amount: 1, image: "Fall_Crops/Pumpkin.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false},
+          { id: "box2-m3-s4", name: "Yam", amount: 1, image: "Fall_Crops/Yam.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false},
+          { id: "box2-m3-s5", name: "Sweet Potato", amount: 1, image: "Fall_Crops/Sweet_Potato.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false}
         ]
       },
       {
@@ -195,13 +195,13 @@ const pantryData = [
         title: "Quality Crops",
         required: 5,
         items: [
-          { id: "box2-m4-s1", name: "Gold quality Parsnip", amount: 5, image: "SVEITEMS/Quality_Crops/Gold_quality_Parsnip.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
-          { id: "box2-m4-s2", name: "Gold quality Melon", amount: 5, image: "SVEITEMS/Quality_Crops/Gold_quality_Melon.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
-          { id: "box2-m4-s3", name: "Gold quality Pumpkin", amount: 5, image: "SVEITEMS/Quality_Crops/Gold_quality_Pumpkin.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false},
-          { id: "box2-m4-s4", name: "Gold quality Corn", amount: 5, image: "SVEITEMS/Quality_Crops/Gold_quality_Corn.png", tooltipText: "Summer Crop OR Fall Crop", season: [SEASONS.SUMMER, SEASONS.FALL], completed: false},
-          { id: "box2-m4-s5", name: "Gold quality Cucumber", amount: 5, image: "SVEITEMS/Quality_Crops/Gold_quality_Cucumber.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
-          { id: "box2-m4-s6", name: "Gold quality Butternut Squash", amount: 5, image: "SVEITEMS/Quality_Crops/Gold_quality_Butternut_Squash.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
-          { id: "box2-m4-s7", name: "Gold quality Sweet Potato", amount: 5, image: "SVEITEMS/Quality_Crops/Gold_quality_Sweet_Potato.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false}
+          { id: "box2-m4-s1", name: "Gold quality Parsnip", amount: 5, image: "Quality_Crops/Gold_quality_Parsnip.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
+          { id: "box2-m4-s2", name: "Gold quality Melon", amount: 5, image: "Quality_Crops/Gold_quality_Melon.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
+          { id: "box2-m4-s3", name: "Gold quality Pumpkin", amount: 5, image: "Quality_Crops/Gold_quality_Pumpkin.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false},
+          { id: "box2-m4-s4", name: "Gold quality Corn", amount: 5, image: "Quality_Crops/Gold_quality_Corn.png", tooltipText: "Summer Crop OR Fall Crop", season: [SEASONS.SUMMER, SEASONS.FALL], completed: false},
+          { id: "box2-m4-s5", name: "Gold quality Cucumber", amount: 5, image: "Quality_Crops/Gold_quality_Cucumber.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
+          { id: "box2-m4-s6", name: "Gold quality Butternut Squash", amount: 5, image: "Quality_Crops/Gold_quality_Butternut_Squash.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
+          { id: "box2-m4-s7", name: "Gold quality Sweet Potato", amount: 5, image: "Quality_Crops/Gold_quality_Sweet_Potato.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false}
         ]
       },
       {
@@ -209,12 +209,12 @@ const pantryData = [
         title: "Animal",
         required: 5,
         items: [
-          { id: "box2-m5-s1", name: "Large Milk", amount: 1, image: "SVEITEMS/Animal/Large_Milk.png", tooltipText: "Happy Cows", season: [SEASONS.ANY], completed: false},
-          { id: "box2-m5-s2", name: "Large Goat Milk", amount: 1, image: "SVEITEMS/Animal/Large_Goat_Milk.png", tooltipText: "Happy Goats", season: [SEASONS.ANY], completed: false},
-          { id: "box2-m5-s3", name: "Wool", amount: 1, image: "SVEITEMS/Animal/Wool.png", tooltipText: "Rabbits OR Sheep", season: [SEASONS.ANY], completed: false},
-          { id: "box2-m5-s4", name: "Duck Egg", amount: 1, image: "SVEITEMS/Animal/Duck_Egg.png", tooltipText: "Ducks", season: [SEASONS.ANY], completed: false},
-          { id: "box2-m5-s5", name: "Large Egg (white)", amount: 1, image: "SVEITEMS/Animal/Large_Egg_(white).png", tooltipText: "Happy White Chickens", season: [SEASONS.ANY], completed: false},
-          { id: "box2-m5-s6", name: "Large Egg (brown)", amount: 1, image: "SVEITEMS/Animal/Large_Egg_(brown).png", tooltipText: "Happy Brown Chickens", season: [SEASONS.ANY], completed: false}
+          { id: "box2-m5-s1", name: "Large Milk", amount: 1, image: "Animal/Large_Milk.png", tooltipText: "Happy Cows", season: [SEASONS.ANY], completed: false},
+          { id: "box2-m5-s2", name: "Large Goat Milk", amount: 1, image: "Animal/Large_Goat_Milk.png", tooltipText: "Happy Goats", season: [SEASONS.ANY], completed: false},
+          { id: "box2-m5-s3", name: "Wool", amount: 1, image: "Animal/Wool.png", tooltipText: "Rabbits OR Sheep", season: [SEASONS.ANY], completed: false},
+          { id: "box2-m5-s4", name: "Duck Egg", amount: 1, image: "Animal/Duck_Egg.png", tooltipText: "Ducks", season: [SEASONS.ANY], completed: false},
+          { id: "box2-m5-s5", name: "Large Egg (white)", amount: 1, image: "Animal/Large_Egg_(white).png", tooltipText: "Happy White Chickens", season: [SEASONS.ANY], completed: false},
+          { id: "box2-m5-s6", name: "Large Egg (brown)", amount: 1, image: "Animal/Large_Egg_(brown).png", tooltipText: "Happy Brown Chickens", season: [SEASONS.ANY], completed: false}
         ]
       },
       {
@@ -222,17 +222,17 @@ const pantryData = [
         title: "Artisan",
         required: 8,
         items: [
-          { id: "box2-m6-s1", name: "Truffle Oil", amount: 1, image: "SVEITEMS/Artisan/Truffle_Oil.png", tooltipText: "Truffle (from pigs) in Oil Maker", season: [SEASONS.ANY], completed: false},
-          { id: "box2-m6-s2", name: "Cloth", amount: 1, image: "SVEITEMS/Artisan/Cloth.png", tooltipText: "Wool in Loom", season: [SEASONS.ANY], completed: false},
-          { id: "box2-m6-s3", name: "Goat Cheese", amount: 1, image: "SVEITEMS/Artisan/Goat_Cheese.png", tooltipText: "Goat Milk in Cheese Press", season: [SEASONS.ANY], completed: false},
-          { id: "box2-m6-s4", name: "Cheese", amount: 1, image: "SVEITEMS/Artisan/Cheese.png", tooltipText: "Milk in Cheese Press", season: [SEASONS.ANY], completed: false},
-          { id: "box2-m6-s5", name: "Honey", amount: 1, image: "SVEITEMS/Artisan/Honey.png", tooltipText: "Bee House (Except in Winter)", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], completed: false},
-          { id: "box2-m6-s6", name: "Jelly", amount: 1, image: "SVEITEMS/Artisan/Jelly.png", tooltipText: "Putting any fruit into a Preserves Jar", season: [SEASONS.ANY], completed: false},
-          { id: "box2-m6-s7", name: "Apricot", amount: 1, image: "SVEITEMS/Artisan/Apricot.png", tooltipText: "Apricot Tree (During Spring) OR Fruit Bat Farm Cave", season: [SEASONS.SPRING], completed: false},
-          { id: "box2-m6-s8", name: "Orange", amount: 1, image: "SVEITEMS/Artisan/Orange.png", tooltipText: "Orange Tree (During Summer) OR Fruit Bat Farm Cave", season: [SEASONS.SUMMER], completed: false},
-          { id: "box2-m6-s9", name: "Pear", amount: 1, image: "SVEITEMS/Artisan/Pear.png", tooltipText: "Pear Tree (During Spring)", season: [SEASONS.SPRING], completed: false},
-          { id: "box2-m6-s10", name: "Nectarine", amount: 1, image: "SVEITEMS/Artisan/Nectarine.png", tooltipText: "Nectarine Tree (During Summer)", season: [SEASONS.SUMMER], completed: false},
-          { id: "box2-m6-s11", name: "Butter", amount: 1, image: "SVEITEMS/Artisan/Butter.png", tooltipText: "Any Milk into Butter Churner", season: [SEASONS.ANY], completed: false}
+          { id: "box2-m6-s1", name: "Truffle Oil", amount: 1, image: "Artisan/Truffle_Oil.png", tooltipText: "Truffle (from pigs) in Oil Maker", season: [SEASONS.ANY], completed: false},
+          { id: "box2-m6-s2", name: "Cloth", amount: 1, image: "Artisan/Cloth.png", tooltipText: "Wool in Loom", season: [SEASONS.ANY], completed: false},
+          { id: "box2-m6-s3", name: "Goat Cheese", amount: 1, image: "Artisan/Goat_Cheese.png", tooltipText: "Goat Milk in Cheese Press", season: [SEASONS.ANY], completed: false},
+          { id: "box2-m6-s4", name: "Cheese", amount: 1, image: "Artisan/Cheese.png", tooltipText: "Milk in Cheese Press", season: [SEASONS.ANY], completed: false},
+          { id: "box2-m6-s5", name: "Honey", amount: 1, image: "Artisan/Honey.png", tooltipText: "Bee House (Except in Winter)", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], completed: false},
+          { id: "box2-m6-s6", name: "Jelly", amount: 1, image: "Artisan/Jelly.png", tooltipText: "Putting any fruit into a Preserves Jar", season: [SEASONS.ANY], completed: false},
+          { id: "box2-m6-s7", name: "Apricot", amount: 1, image: "Artisan/Apricot.png", tooltipText: "Apricot Tree (During Spring) OR Fruit Bat Farm Cave", season: [SEASONS.SPRING], completed: false},
+          { id: "box2-m6-s8", name: "Orange", amount: 1, image: "Artisan/Orange.png", tooltipText: "Orange Tree (During Summer) OR Fruit Bat Farm Cave", season: [SEASONS.SUMMER], completed: false},
+          { id: "box2-m6-s9", name: "Pear", amount: 1, image: "Artisan/Pear.png", tooltipText: "Pear Tree (During Spring)", season: [SEASONS.SPRING], completed: false},
+          { id: "box2-m6-s10", name: "Nectarine", amount: 1, image: "Artisan/Nectarine.png", tooltipText: "Nectarine Tree (During Summer)", season: [SEASONS.SUMMER], completed: false},
+          { id: "box2-m6-s11", name: "Butter", amount: 1, image: "Artisan/Butter.png", tooltipText: "Any Milk into Butter Churner", season: [SEASONS.ANY], completed: false}
         ]
       }
     ]
@@ -297,12 +297,12 @@ const fishTankData = [
         title: "River Fish",
         required: 6,
         items: [
-          { id: "box3-m1-s1", name: "Sunfish", season: [SEASONS.SPRING, SEASONS.SUMMER], amount: 1, image: "SVEITEMS/Fish_Tank/River_Fish/Sunfish.png", tooltipText: "Spring / Summer | Rivers | Not Raining | Before 7pm", completed: false},
-          { id: "box3-m1-s2", name: "Catfish", season: [SEASONS.SPRING, SEASONS.FALL, SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/River_Fish/Catfish.png", tooltipText: "Spring / Fall | Rivers | Raining | Before 12am OR Any Season | Secret Woods | Raining | Before 12am", completed: false},
-          { id: "box3-m1-s3", name: "Shad", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "SVEITEMS/Fish_Tank/River_Fish/Shad.png", tooltipText: "Not Winter | Rivers | Raining | 9am - 2am", completed: false},
-          { id: "box3-m1-s4", name: "Tiger Trout", season: [SEASONS.FALL, SEASONS.WINTER], amount: 1, image: "SVEITEMS/Fish_Tank/River_Fish/Tiger_Trout.png", tooltipText: "Fall / Winter | Rivers | Any Weather | Before 7pm", completed: false},
-          { id: "box3-m1-s5", name: "Minnow", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/River_Fish/Minnow.png", tooltipText: "Any Season | Any Freshwater (except Adventurer's Summit & Farm) | Any Weather| Before 6pm OR Not Winter | Any Freshwater | Any Weather | Before 6pm", completed: false},
-          { id: "box3-m1-s6", name: "Goldfish", season: [SEASONS.SPRING], amount: 1, image: "SVEITEMS/Fish_Tank/River_Fish/Goldfish.png", tooltipText: "Spring | Bluemoon Vineyard River / Pelican Town | Sunny Weather | 10am - 5pm", completed: false},
+          { id: "box3-m1-s1", name: "Sunfish", season: [SEASONS.SPRING, SEASONS.SUMMER], amount: 1, image: "Fish_Tank/River_Fish/Sunfish.png", tooltipText: "Spring / Summer | Rivers | Not Raining | Before 7pm", completed: false},
+          { id: "box3-m1-s2", name: "Catfish", season: [SEASONS.SPRING, SEASONS.FALL, SEASONS.ANY], amount: 1, image: "Fish_Tank/River_Fish/Catfish.png", tooltipText: "Spring / Fall | Rivers | Raining | Before 12am OR Any Season | Secret Woods | Raining | Before 12am", completed: false},
+          { id: "box3-m1-s3", name: "Shad", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "Fish_Tank/River_Fish/Shad.png", tooltipText: "Not Winter | Rivers | Raining | 9am - 2am", completed: false},
+          { id: "box3-m1-s4", name: "Tiger Trout", season: [SEASONS.FALL, SEASONS.WINTER], amount: 1, image: "Fish_Tank/River_Fish/Tiger_Trout.png", tooltipText: "Fall / Winter | Rivers | Any Weather | Before 7pm", completed: false},
+          { id: "box3-m1-s5", name: "Minnow", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/River_Fish/Minnow.png", tooltipText: "Any Season | Any Freshwater (except Adventurer's Summit & Farm) | Any Weather| Before 6pm OR Not Winter | Any Freshwater | Any Weather | Before 6pm", completed: false},
+          { id: "box3-m1-s6", name: "Goldfish", season: [SEASONS.SPRING], amount: 1, image: "Fish_Tank/River_Fish/Goldfish.png", tooltipText: "Spring | Bluemoon Vineyard River / Pelican Town | Sunny Weather | 10am - 5pm", completed: false},
         ],
       },
       {
@@ -310,11 +310,11 @@ const fishTankData = [
         title: "Lake Fish",
         required: 5,
         items: [
-          { id: "box3-m2-s1", name: "Largemouth Bass", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Lake_Fish/Largemouth_Bass.png", tooltipText: "Any Season | Mountain Lake | Any Weather | Before 7pm", completed: false},
-          { id: "box3-m2-s2", name: "Carp", season: [SEASONS.ANY, SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "SVEITEMS/Fish_Tank/Lake_Fish/Carp.png", tooltipText: "Any Season | Secret Woods / Sewers | Any Weather | All Day OR Not Winter | Mountain Lake | Any Weather | All Day", completed: false},
-          { id: "box3-m2-s3", name: "Bullhead", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Lake_Fish/Bullhead.png", tooltipText: "Any Season | Mountain Lake | Any Weather | All Day", completed: false},
-          { id: "box3-m2-s4", name: "Sturgeon", season: [SEASONS.SUMMER, SEASONS.WINTER], amount: 1, image: "SVEITEMS/Fish_Tank/Lake_Fish/Sturgeon.png", tooltipText: "Summer / Winter | Mountain Lake | Any Weather | Before 7pm", completed: false},
-          { id: "box3-m2-s5", name: "Tadpole", season: [SEASONS.SPRING, SEASONS.SUMMER], amount: 1, image: "SVEITEMS/Fish_Tank/Lake_Fish/Tadpole.png", tooltipText: "Spring / Summer | Mountain Lake | Any Weather | All Day", completed: false},
+          { id: "box3-m2-s1", name: "Largemouth Bass", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Lake_Fish/Largemouth_Bass.png", tooltipText: "Any Season | Mountain Lake | Any Weather | Before 7pm", completed: false},
+          { id: "box3-m2-s2", name: "Carp", season: [SEASONS.ANY, SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "Fish_Tank/Lake_Fish/Carp.png", tooltipText: "Any Season | Secret Woods / Sewers | Any Weather | All Day OR Not Winter | Mountain Lake | Any Weather | All Day", completed: false},
+          { id: "box3-m2-s3", name: "Bullhead", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Lake_Fish/Bullhead.png", tooltipText: "Any Season | Mountain Lake | Any Weather | All Day", completed: false},
+          { id: "box3-m2-s4", name: "Sturgeon", season: [SEASONS.SUMMER, SEASONS.WINTER], amount: 1, image: "Fish_Tank/Lake_Fish/Sturgeon.png", tooltipText: "Summer / Winter | Mountain Lake | Any Weather | Before 7pm", completed: false},
+          { id: "box3-m2-s5", name: "Tadpole", season: [SEASONS.SPRING, SEASONS.SUMMER], amount: 1, image: "Fish_Tank/Lake_Fish/Tadpole.png", tooltipText: "Spring / Summer | Mountain Lake | Any Weather | All Day", completed: false},
         ],
       },
       {
@@ -322,11 +322,11 @@ const fishTankData = [
         title: "Ocean Fish",
         required: 5,
         items: [
-          { id: "box3-m3-s1", name: "Sardine", season: [SEASONS.SPRING, SEASONS.FALL, SEASONS.WINTER], amount: 1, image: "SVEITEMS/Fish_Tank/Ocean_Fish/Sardine.png", tooltipText: "Not Summer | Ocean | Any Weather | Before 7pm", completed: false},
-          { id: "box3-m3-s2", name: "Tuna", season: [SEASONS.SUMMER, SEASONS.WINTER], amount: 1, image: "SVEITEMS/Fish_Tank/Ocean_Fish/Tuna.png", tooltipText: "Summer / Winter | Ocean | Any Weather | Before 7pm", completed: false},
-          { id: "box3-m3-s3", name: "Red Snapper", season: [SEASONS.SUMMER, SEASONS.FALL, SEASONS.WINTER], amount: 1, image: "SVEITEMS/Fish_Tank/Ocean_Fish/Red_Snapper.png", tooltipText: "Not Spring | Ocean | Rain | Before 7pm", completed: false},
-          { id: "box3-m3-s4", name: "Tilapia", season: [SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "SVEITEMS/Fish_Tank/Ocean_Fish/Tilapia.png", tooltipText: "Summer / Fall | Ocean | Any Weather | Before 2pm", completed: false},
-          { id: "box3-m3-s5", name: "Starfish", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.WINTER], amount: 1, image: "SVEITEMS/Fish_Tank/Ocean_Fish/Starfish.png", tooltipText: "Not Fall | Beach (Ocean) | Any Weather | Before 10pm", completed: false},
+          { id: "box3-m3-s1", name: "Sardine", season: [SEASONS.SPRING, SEASONS.FALL, SEASONS.WINTER], amount: 1, image: "Fish_Tank/Ocean_Fish/Sardine.png", tooltipText: "Not Summer | Ocean | Any Weather | Before 7pm", completed: false},
+          { id: "box3-m3-s2", name: "Tuna", season: [SEASONS.SUMMER, SEASONS.WINTER], amount: 1, image: "Fish_Tank/Ocean_Fish/Tuna.png", tooltipText: "Summer / Winter | Ocean | Any Weather | Before 7pm", completed: false},
+          { id: "box3-m3-s3", name: "Red Snapper", season: [SEASONS.SUMMER, SEASONS.FALL, SEASONS.WINTER], amount: 1, image: "Fish_Tank/Ocean_Fish/Red_Snapper.png", tooltipText: "Not Spring | Ocean | Rain | Before 7pm", completed: false},
+          { id: "box3-m3-s4", name: "Tilapia", season: [SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "Fish_Tank/Ocean_Fish/Tilapia.png", tooltipText: "Summer / Fall | Ocean | Any Weather | Before 2pm", completed: false},
+          { id: "box3-m3-s5", name: "Starfish", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.WINTER], amount: 1, image: "Fish_Tank/Ocean_Fish/Starfish.png", tooltipText: "Not Fall | Beach (Ocean) | Any Weather | Before 10pm", completed: false},
         ],
       },
       {
@@ -334,10 +334,10 @@ const fishTankData = [
         title: "Night Fishing",
         required: 4,
         items: [
-          { id: "box3-m4-s1", name: "Walleye", season: [SEASONS.FALL, SEASONS.WINTER], amount: 1, image: "SVEITEMS/Fish_Tank/Night_Fishing/Walleye.png", tooltipText: "Fall / Winter | Rivers / Mountain Lake | Rain | 12pm-2am", completed: false},
-          { id: "box3-m4-s2", name: "Bream", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Night_Fishing/Bream.png", tooltipText: "Any Season | Rivers | Any Weather | 6pm-2am", completed: false},
-          { id: "box3-m4-s3", name: "Eel", season: [SEASONS.SPRING, SEASONS.FALL], amount: 1, image: "SVEITEMS/Fish_Tank/Night_Fishing/Eel.png", tooltipText: "Spring / Fall | Ocean | Rain | 4pm-2am", completed: false},
-          { id: "box3-m4-s4", name: "Frog", season: [SEASONS.SPRING, SEASONS.SUMMER], amount: 1, image: "SVEITEMS/Fish_Tank/Night_Fishing/Frog.png", tooltipText: "Spring / Summer | Mountain Lake | Rain | 6pm-2am", completed: false},
+          { id: "box3-m4-s1", name: "Walleye", season: [SEASONS.FALL, SEASONS.WINTER], amount: 1, image: "Fish_Tank/Night_Fishing/Walleye.png", tooltipText: "Fall / Winter | Rivers / Mountain Lake | Rain | 12pm-2am", completed: false},
+          { id: "box3-m4-s2", name: "Bream", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Night_Fishing/Bream.png", tooltipText: "Any Season | Rivers | Any Weather | 6pm-2am", completed: false},
+          { id: "box3-m4-s3", name: "Eel", season: [SEASONS.SPRING, SEASONS.FALL], amount: 1, image: "Fish_Tank/Night_Fishing/Eel.png", tooltipText: "Spring / Fall | Ocean | Rain | 4pm-2am", completed: false},
+          { id: "box3-m4-s4", name: "Frog", season: [SEASONS.SPRING, SEASONS.SUMMER], amount: 1, image: "Fish_Tank/Night_Fishing/Frog.png", tooltipText: "Spring / Summer | Mountain Lake | Rain | 6pm-2am", completed: false},
         ],
       },
       {
@@ -345,16 +345,16 @@ const fishTankData = [
         title: "Crab Pot",
         required: 10,
         items: [
-          { id: "box3-m5-s1", name: "Lobster", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Crab_Pot/Lobster.png", tooltipText: "Any Season | Crab Pots: Saltwater", completed: false},
-          { id: "box3-m5-s2", name: "Crayfish", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Crab_Pot/Crayfish.png", tooltipText: "Any Season | Crab Pots: Freshwater", completed: false},
-          { id: "box3-m5-s3", name: "Crab", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Crab_Pot/Crab.png", tooltipText: "Any Season | Crab Pots: Saltwater OR Occasionally dropped by (Rock/Lava) Crabs in Mines", completed: false},
-          { id: "box3-m5-s4", name: "Cockle", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Crab_Pot/Cockle.png", tooltipText: "Any Season | Crab Pots: Saltwater OR Beach Foraging", completed: false},
-          { id: "box3-m5-s5", name: "Mussel", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Crab_Pot/Mussel.png", tooltipText: "Any Season | Crab Pots: Saltwater OR Beach Foraging", completed: false},
-          { id: "box3-m5-s6", name: "Shrimp", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Crab_Pot/Shrimp.png", tooltipText: "Any Season | Crab Pots: Saltwater", completed: false},
-          { id: "box3-m5-s7", name: "Snail", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Crab_Pot/Snail.png", tooltipText: "Any Season | Crab Pots: Freshwater", completed: false},
-          { id: "box3-m5-s8", name: "Periwinkle", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Crab_Pot/Periwinkle.png", tooltipText: "Any Season | Crab Pots: Freshwater", completed: false},
-          { id: "box3-m5-s9", name: "Oyster", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Crab_Pot/Oyster.png", tooltipText: "Any Season | Crab Pots: Saltwater OR Beach Foraging", completed: false},
-          { id: "box3-m5-s10", name: "Clam", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Crab_Pot/Clam.png", tooltipText: "Any Season | Crab Pots: Saltwater OR Beach Foraging", completed: false},
+          { id: "box3-m5-s1", name: "Lobster", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Crab_Pot/Lobster.png", tooltipText: "Any Season | Crab Pots: Saltwater", completed: false},
+          { id: "box3-m5-s2", name: "Crayfish", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Crab_Pot/Crayfish.png", tooltipText: "Any Season | Crab Pots: Freshwater", completed: false},
+          { id: "box3-m5-s3", name: "Crab", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Crab_Pot/Crab.png", tooltipText: "Any Season | Crab Pots: Saltwater OR Occasionally dropped by (Rock/Lava) Crabs in Mines", completed: false},
+          { id: "box3-m5-s4", name: "Cockle", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Crab_Pot/Cockle.png", tooltipText: "Any Season | Crab Pots: Saltwater OR Beach Foraging", completed: false},
+          { id: "box3-m5-s5", name: "Mussel", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Crab_Pot/Mussel.png", tooltipText: "Any Season | Crab Pots: Saltwater OR Beach Foraging", completed: false},
+          { id: "box3-m5-s6", name: "Shrimp", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Crab_Pot/Shrimp.png", tooltipText: "Any Season | Crab Pots: Saltwater", completed: false},
+          { id: "box3-m5-s7", name: "Snail", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Crab_Pot/Snail.png", tooltipText: "Any Season | Crab Pots: Freshwater", completed: false},
+          { id: "box3-m5-s8", name: "Periwinkle", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Crab_Pot/Periwinkle.png", tooltipText: "Any Season | Crab Pots: Freshwater", completed: false},
+          { id: "box3-m5-s9", name: "Oyster", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Crab_Pot/Oyster.png", tooltipText: "Any Season | Crab Pots: Saltwater OR Beach Foraging", completed: false},
+          { id: "box3-m5-s10", name: "Clam", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Crab_Pot/Clam.png", tooltipText: "Any Season | Crab Pots: Saltwater OR Beach Foraging", completed: false},
         ],
       },
       {
@@ -362,17 +362,18 @@ const fishTankData = [
         title: "Specialty Fish",
         required: 6,
         items: [
-          { id: "box3-m6-s1", name: "Pufferfish", season: [SEASONS.SUMMER], amount: 1, image: "SVEITEMS/Fish_Tank/Specialty_Fish/Pufferfish.png", tooltipText: "Summer | Ocean | Sunny | 12pm-4pm OR Traveling Cart", completed: false},
-          { id: "box3-m6-s2", name: "Ghostfish", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Specialty_Fish/Ghostfish.png", tooltipText: "Any Season | Floor (20/60) in Mines | All Day OR Traveling Cart", completed: false},
-          { id: "box3-m6-s3", name: "Sandfish", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Specialty_Fish/Sandfish.png", tooltipText: "Any Season | The Desert | Before 8pm OR Traveling Cart", completed: false},
-          { id: "box3-m6-s4", name: "Woodskip", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Fish_Tank/Specialty_Fish/Woodskip.png", tooltipText: "Any Season | Secret Woods | Any Weather | All Day OR Traveling Cart", completed: false},
-          { id: "box3-m6-s5", name: "King Salmon", season: [SEASONS.SPRING, SEASONS.SUMMER], amount: 1, image: "SVEITEMS/Fish_Tank/Specialty_Fish/King_Salmon.png", tooltipText: "Spring / Summer | Bottom of Forest West | Any Weather | Before 8pm", completed: false},
-          { id: "box3-m6-s6", name: "Butterfish", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "SVEITEMS/Fish_Tank/Specialty_Fish/Butterfish.png", tooltipText: "Not Winter | Shearwater Bridge | Sunny | All Day OR Summer | Forest West | Sunny | All Day", completed: false},
+          { id: "box3-m6-s1", name: "Pufferfish", season: [SEASONS.SUMMER], amount: 1, image: "Fish_Tank/Specialty_Fish/Pufferfish.png", tooltipText: "Summer | Ocean | Sunny | 12pm-4pm OR Traveling Cart", completed: false},
+          { id: "box3-m6-s2", name: "Ghostfish", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Specialty_Fish/Ghostfish.png", tooltipText: "Any Season | Floor (20/60) in Mines | All Day OR Traveling Cart", completed: false},
+          { id: "box3-m6-s3", name: "Sandfish", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Specialty_Fish/Sandfish.png", tooltipText: "Any Season | The Desert | Before 8pm OR Traveling Cart", completed: false},
+          { id: "box3-m6-s4", name: "Woodskip", season: [SEASONS.ANY], amount: 1, image: "Fish_Tank/Specialty_Fish/Woodskip.png", tooltipText: "Any Season | Secret Woods | Any Weather | All Day OR Traveling Cart", completed: false},
+          { id: "box3-m6-s5", name: "King Salmon", season: [SEASONS.SPRING, SEASONS.SUMMER], amount: 1, image: "Fish_Tank/Specialty_Fish/King_Salmon.png", tooltipText: "Spring / Summer | Bottom of Forest West | Any Weather | Before 8pm", completed: false},
+          { id: "box3-m6-s6", name: "Butterfish", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "Fish_Tank/Specialty_Fish/Butterfish.png", tooltipText: "Not Winter | Shearwater Bridge | Sunny | All Day OR Summer | Forest West | Sunny | All Day", completed: false},
         ],
       },
     ],
   },
 ];
+
 
 fishTankData[0].bundles.forEach(bundle => {
   const mediumBox = document.getElementById(bundle.id);
@@ -431,9 +432,9 @@ const boilerRoomData = [
         title: "Blacksmith's",
         required: 3,
         items: [
-          { id: "box4-m1-s1", name: "Copper Bar", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Boiler_Room/Blacksmith's/Copper_Bar.png", tooltipText: "5 Copper into Furnace", completed: false},
-          { id: "box4-m1-s2", name: "Iron Bar", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Boiler_Room/Blacksmith's/Iron_Bar.png", tooltipText: "5 Iron into Furnace", completed: false},
-          { id: "box4-m1-s3", name: "Gold Bar", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Boiler_Room/Blacksmith's/Gold_Bar.png", tooltipText: "5 Gold into Furnace", completed: false},
+          { id: "box4-m1-s1", name: "Copper Bar", season: [SEASONS.ANY], amount: 1, image: "Boiler_Room/Blacksmith's/Copper_Bar.png", tooltipText: "5 Copper into Furnace", completed: false},
+          { id: "box4-m1-s2", name: "Iron Bar", season: [SEASONS.ANY], amount: 1, image: "Boiler_Room/Blacksmith's/Iron_Bar.png", tooltipText: "5 Iron into Furnace", completed: false},
+          { id: "box4-m1-s3", name: "Gold Bar", season: [SEASONS.ANY], amount: 1, image: "Boiler_Room/Blacksmith's/Gold_Bar.png", tooltipText: "5 Gold into Furnace", completed: false},
         ],
       },
       {
@@ -441,10 +442,10 @@ const boilerRoomData = [
         title: "Geologist's",
         required: 4,
         items: [
-          { id: "box4-m2-s1", name: "Quartz", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Boiler_Room/Geologist's/Quartz.png", tooltipText: "Foraging in Mines OR Stone Golems (floors 31–39, 10% Chance)", completed: false},
-          { id: "box4-m2-s2", name: "Earth Crystal", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Boiler_Room/Geologist's/Earth_Crystal.png", tooltipText: "Foraging in Mines (floors 1–39) OR Geodes / Omni-Geodes OR Duggies (10% Chance)", completed: false},
-          { id: "box4-m2-s3", name: "Frozen Tear", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Boiler_Room/Geologist's/Frozen_Tear.png", tooltipText: "Foraging in Mines (floors 41–79) OR Frozen Geodes / Omni-Geodes OR Dust Mites (2% Chance)", completed: false},
-          { id: "box4-m2-s4", name: "Fire Quartz", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Boiler_Room/Geologist's/Fire_Quartz.png", tooltipText: "Foraging in Mines (floors 80+) OR Magma Geodes / Omni-Geodes", completed: false},
+          { id: "box4-m2-s1", name: "Quartz", season: [SEASONS.ANY], amount: 1, image: "Boiler_Room/Geologist's/Quartz.png", tooltipText: "Foraging in Mines OR Stone Golems (floors 31–39, 10% Chance)", completed: false},
+          { id: "box4-m2-s2", name: "Earth Crystal", season: [SEASONS.ANY], amount: 1, image: "Boiler_Room/Geologist's/Earth_Crystal.png", tooltipText: "Foraging in Mines (floors 1–39) OR Geodes / Omni-Geodes OR Duggies (10% Chance)", completed: false},
+          { id: "box4-m2-s3", name: "Frozen Tear", season: [SEASONS.ANY], amount: 1, image: "Boiler_Room/Geologist's/Frozen_Tear.png", tooltipText: "Foraging in Mines (floors 41–79) OR Frozen Geodes / Omni-Geodes OR Dust Mites (2% Chance)", completed: false},
+          { id: "box4-m2-s4", name: "Fire Quartz", season: [SEASONS.ANY], amount: 1, image: "Boiler_Room/Geologist's/Fire_Quartz.png", tooltipText: "Foraging in Mines (floors 80+) OR Magma Geodes / Omni-Geodes", completed: false},
         ],
       },
       {
@@ -452,10 +453,10 @@ const boilerRoomData = [
         title: "Adventurer's",
         required: 2,
         items: [
-          { id: "box4-m3-s1", name: "Slime", season: [SEASONS.ANY], amount: 99, image: "SVEITEMS/Boiler_Room/Adventurer's/Slime.png", tooltipText: "Killing Slimes in Mines (Any Floor)", completed: false},
-          { id: "box4-m3-s2", name: "Bat Wings", season: [SEASONS.ANY], amount: 10, image: "SVEITEMS/Boiler_Room/Adventurer's/Bat_Wings.png", tooltipText: "Killing Bats in Mines (Any Floor past 30)", completed: false},
-          { id: "box4-m3-s3", name: "Solar Essence", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Boiler_Room/Adventurer's/Solar_Essence.png", tooltipText: "Ghosts (51–79) OR Metal Heads (81–119) OR Squid Kids (91–119)", completed: false},
-          { id: "box4-m3-s4", name: "Void Essence", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Boiler_Room/Adventurer's/Void_Essence.png", tooltipText: "Shadow Brutes / Shamans (Floors 80+)", completed: false},
+          { id: "box4-m3-s1", name: "Slime", season: [SEASONS.ANY], amount: 99, image: "Boiler_Room/Adventurer's/Slime.png", tooltipText: "Killing Slimes in Mines (Any Floor)", completed: false},
+          { id: "box4-m3-s2", name: "Bat Wings", season: [SEASONS.ANY], amount: 10, image: "Boiler_Room/Adventurer's/Bat_Wings.png", tooltipText: "Killing Bats in Mines (Any Floor past 30)", completed: false},
+          { id: "box4-m3-s3", name: "Solar Essence", season: [SEASONS.ANY], amount: 1, image: "Boiler_Room/Adventurer's/Solar_Essence.png", tooltipText: "Ghosts (51–79) OR Metal Heads (81–119) OR Squid Kids (91–119)", completed: false},
+          { id: "box4-m3-s4", name: "Void Essence", season: [SEASONS.ANY], amount: 1, image: "Boiler_Room/Adventurer's/Void_Essence.png", tooltipText: "Shadow Brutes / Shamans (Floors 80+)", completed: false},
         ],
       },
     ],
@@ -517,13 +518,13 @@ const bulletinBoardData = [
         title: "Chef's",
         required: 7,
         items: [
-          { id: "box5-m1-s1", name: "Maple Syrup", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Chef's/Maple_Syrup.png", tooltipText: "Placing Tapper on Maple Tree OR Sold from Bear", completed: false},
-          { id: "box5-m1-s2", name: "Fiddlehead Fern", season: [SEASONS.SUMMER], amount: 1, image: "SVEITEMS/Bulletin_Board/Chef's/Fiddlehead_Fern.png", tooltipText: "Summer | Foraging in Secret Woods", completed: false},
-          { id: "box5-m1-s3", name: "Truffle", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "SVEITEMS/Bulletin_Board/Chef's/Truffle.png", tooltipText: "Not Winter | Happy Pigs outside", completed: false},
-          { id: "box5-m1-s4", name: "Poppy", season: [SEASONS.SUMMER], amount: 1, image: "SVEITEMS/Bulletin_Board/Chef's/Poppy.png", tooltipText: "Summer Crop", completed: false},
-          { id: "box5-m1-s5", name: "Maki Roll", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Chef's/Maki_Roll.png", tooltipText: "Cooking (need recipe from TV Show) OR Occasionally sold by Gus OR Occasionally sold by Krobus on Saturdays", completed: false},
-          { id: "box5-m1-s6", name: "Fried Egg", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Chef's/Fried_Egg.png", tooltipText: "Cooking OR Occasionally sold by Gus OR Occasionally sold by Krobus on Saturdays", completed: false},
-          { id: "box5-m1-s7", name: "Candy", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Chef's/Candy.png", tooltipText: "Cooking (need recipe sold by Gus)", completed: false},
+          { id: "box5-m1-s1", name: "Maple Syrup", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Chef's/Maple_Syrup.png", tooltipText: "Placing Tapper on Maple Tree OR Sold from Bear", completed: false},
+          { id: "box5-m1-s2", name: "Fiddlehead Fern", season: [SEASONS.SUMMER], amount: 1, image: "Bulletin_Board/Chef's/Fiddlehead_Fern.png", tooltipText: "Summer | Foraging in Secret Woods", completed: false},
+          { id: "box5-m1-s3", name: "Truffle", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "Bulletin_Board/Chef's/Truffle.png", tooltipText: "Not Winter | Happy Pigs outside", completed: false},
+          { id: "box5-m1-s4", name: "Poppy", season: [SEASONS.SUMMER], amount: 1, image: "Bulletin_Board/Chef's/Poppy.png", tooltipText: "Summer Crop", completed: false},
+          { id: "box5-m1-s5", name: "Maki Roll", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Chef's/Maki_Roll.png", tooltipText: "Cooking (need recipe from TV Show) OR Occasionally sold by Gus OR Occasionally sold by Krobus on Saturdays", completed: false},
+          { id: "box5-m1-s6", name: "Fried Egg", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Chef's/Fried_Egg.png", tooltipText: "Cooking OR Occasionally sold by Gus OR Occasionally sold by Krobus on Saturdays", completed: false},
+          { id: "box5-m1-s7", name: "Candy", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Chef's/Candy.png", tooltipText: "Cooking (need recipe sold by Gus)", completed: false},
         ],
       },
       {
@@ -531,9 +532,9 @@ const bulletinBoardData = [
         title: "Fodder",
         required: 3,
         items: [
-          { id: "box5-m2-s1", name: "Wheat", season: [SEASONS.SUMMER, SEASONS.FALL], amount: 10, image: "SVEITEMS/Bulletin_Board/Fodder/Wheat.png", tooltipText: "Summer and Fall Crop", completed: false},
-          { id: "box5-m2-s2", name: "Hay", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], amount: 10, image: "SVEITEMS/Bulletin_Board/Fodder/Hay.png", tooltipText: "Not Winter | Scything grass when Silo is on the Farm", completed: false},
-          { id: "box5-m2-s3", name: "Apple", season: [SEASONS.FALL], amount: 3, image: "SVEITEMS/Bulletin_Board/Fodder/Apple.png", tooltipText: "Apple trees during Fall OR Fruit Bat Cave on Farm", completed: false},
+          { id: "box5-m2-s1", name: "Wheat", season: [SEASONS.SUMMER, SEASONS.FALL], amount: 10, image: "Bulletin_Board/Fodder/Wheat.png", tooltipText: "Summer and Fall Crop", completed: false},
+          { id: "box5-m2-s2", name: "Hay", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], amount: 10, image: "Bulletin_Board/Fodder/Hay.png", tooltipText: "Not Winter | Scything grass when Silo is on the Farm", completed: false},
+          { id: "box5-m2-s3", name: "Apple", season: [SEASONS.FALL], amount: 3, image: "Bulletin_Board/Fodder/Apple.png", tooltipText: "Apple trees during Fall OR Fruit Bat Cave on Farm", completed: false},
         ],
       },
       {
@@ -541,11 +542,11 @@ const bulletinBoardData = [
         title: "Enchanter's",
         required: 5,
         items: [
-          { id: "box5-m3-s1", name: "Oak Resin", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Enchanter's/Oak_Resin.png", tooltipText: "Placing Tapper on Oak Tree OR Sold from Bear", completed: false},
-          { id: "box5-m3-s2", name: "Wine", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Enchanter's/Wine.png", tooltipText: "Placing Fruit inside a Keg", completed: false},
-          { id: "box5-m3-s3", name: "Rabbit's Foot", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Enchanter's/Rabbit's_Foot.png", tooltipText: "Happy Rabbits OR Traveling Cart", completed: false},
-          { id: "box5-m3-s4", name: "Pomegranate", season: [SEASONS.FALL], amount: 1, image: "SVEITEMS/Bulletin_Board/Enchanter's/Pomegranate.png", tooltipText: "Pomegranate trees during Fall OR Fruit Bat Cave on Farm", completed: false},
-          { id: "box5-m3-s5", name: "Four Leaf Clover", season: [SEASONS.SPRING, SEASONS.SUMMER], amount: 1, image: "SVEITEMS/Bulletin_Board/Enchanter's/Four_Leaf_Clover.png", tooltipText: "Spring / Summer | Secret Woods", completed: false},
+          { id: "box5-m3-s1", name: "Oak Resin", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Enchanter's/Oak_Resin.png", tooltipText: "Placing Tapper on Oak Tree OR Sold from Bear", completed: false},
+          { id: "box5-m3-s2", name: "Wine", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Enchanter's/Wine.png", tooltipText: "Placing Fruit inside a Keg", completed: false},
+          { id: "box5-m3-s3", name: "Rabbit's Foot", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Enchanter's/Rabbit's_Foot.png", tooltipText: "Happy Rabbits OR Traveling Cart", completed: false},
+          { id: "box5-m3-s4", name: "Pomegranate", season: [SEASONS.FALL], amount: 1, image: "Bulletin_Board/Enchanter's/Pomegranate.png", tooltipText: "Pomegranate trees during Fall OR Fruit Bat Cave on Farm", completed: false},
+          { id: "box5-m3-s5", name: "Four Leaf Clover", season: [SEASONS.SPRING, SEASONS.SUMMER], amount: 1, image: "Bulletin_Board/Enchanter's/Four_Leaf_Clover.png", tooltipText: "Spring / Summer | Secret Woods", completed: false},
         ],
       },
       {
@@ -553,11 +554,11 @@ const bulletinBoardData = [
         title: "Field Research",
         required: 5,
         items: [
-          { id: "box5-m4-s1", name: "Purple Mushroom", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Field_Research/Purple_Mushroom.png", tooltipText: "Foraging in caves starting floor 81 OR Mushroom Cave on Farm (rare)", completed: false},
-          { id: "box5-m4-s2", name: "Nautilus Shell", season: [SEASONS.WINTER], amount: 1, image: "SVEITEMS/Bulletin_Board/Field_Research/Nautilus_Shell.png", tooltipText: "Winter | Foraging at the Beach", completed: false},
-          { id: "box5-m4-s3", name: "Chub", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Field_Research/Chub.png", tooltipText: "Any Season | Moutain Lake / Forest River | Any Weather | All Day", completed: false},
-          { id: "box5-m4-s4", name: "Frozen Geode", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Field_Research/Frozen_Geode.png", tooltipText: "Mining in floors 41-79 OR Treasure from fishing", completed: false},
-          { id: "box5-m4-s5", name: "Amber", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Field_Research/Amber.png", tooltipText: "Artifact Spots in The Adventures Summit (most common here) / The Mountain / The Railroad / The Mines", completed: false},
+          { id: "box5-m4-s1", name: "Purple Mushroom", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Field_Research/Purple_Mushroom.png", tooltipText: "Foraging in caves starting floor 81 OR Mushroom Cave on Farm (rare)", completed: false},
+          { id: "box5-m4-s2", name: "Nautilus Shell", season: [SEASONS.WINTER], amount: 1, image: "Bulletin_Board/Field_Research/Nautilus_Shell.png", tooltipText: "Winter | Foraging at the Beach", completed: false},
+          { id: "box5-m4-s3", name: "Chub", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Field_Research/Chub.png", tooltipText: "Any Season | Moutain Lake / Forest River | Any Weather | All Day", completed: false},
+          { id: "box5-m4-s4", name: "Frozen Geode", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Field_Research/Frozen_Geode.png", tooltipText: "Mining in floors 41-79 OR Treasure from fishing", completed: false},
+          { id: "box5-m4-s5", name: "Amber", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Field_Research/Amber.png", tooltipText: "Artifact Spots in The Adventures Summit (most common here) / The Mountain / The Railroad / The Mines", completed: false},
         ],
       },
       {
@@ -565,18 +566,19 @@ const bulletinBoardData = [
         title: "Dye",
         required: 7,
         items: [
-          { id: "box5-m5-s1", name: "Red Mushroom", season: [SEASONS.SUMMER, SEASONS.FALL, SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Dye/Red_Mushroom.png", tooltipText: "Foraging in caves on mushroom floors (chance to spawn starting floor 81) OR Secret Woods Foragable (Summer/Fall) OR Mushroom Cave on Farm", completed: false},
-          { id: "box5-m5-s2", name: "Sea Urchin", season: [SEASONS.ANY, SEASONS.SUMMER], amount: 1, image: "SVEITEMS/Bulletin_Board/Dye/Sea_Urchin.png", tooltipText: "Any Season | Right of the bridge on the Beach OR Summer | Anywhere on the Beach", completed: false},
-          { id: "box5-m5-s3", name: "Sunflower", season: [SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "SVEITEMS/Bulletin_Board/Dye/Sunflower.png", tooltipText: "Summer / Fall crop", completed: false},
-          { id: "box5-m5-s4", name: "Duck Feather", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Dye/Duck_Feather.png", tooltipText: "Happy Ducks", completed: false},
-          { id: "box5-m5-s5", name: "Aquamarine", season: [SEASONS.ANY], amount: 1, image: "SVEITEMS/Bulletin_Board/Dye/Aquamarine.png", tooltipText: "(Gem Nodes / Aquamarine Nodes) after floor 40" },
-          { id: "box5-m5-s6", name: "Red Cabbage", season: [SEASONS.SUMMER], amount: 1, image: "SVEITEMS/Bulletin_Board/Dye/Red_Cabbage.png", tooltipText: "Summer Crop (sold by Pierre starting year 2) OR seeds sold at Traveling Cart", completed: false},
-          { id: "box5-m5-s7", name: "Persimmon", season: [SEASONS.FALL], amount: 1, image: "SVEITEMS/Bulletin_Board/Dye/Persimmon.png", tooltipText: "Persimmon Trees during Fall", completed: false},
+          { id: "box5-m5-s1", name: "Red Mushroom", season: [SEASONS.SUMMER, SEASONS.FALL, SEASONS.ANY], amount: 1, image: "Bulletin_Board/Dye/Red_Mushroom.png", tooltipText: "Foraging in caves on mushroom floors (chance to spawn starting floor 81) OR Secret Woods Foragable (Summer/Fall) OR Mushroom Cave on Farm", completed: false},
+          { id: "box5-m5-s2", name: "Sea Urchin", season: [SEASONS.ANY, SEASONS.SUMMER], amount: 1, image: "Bulletin_Board/Dye/Sea_Urchin.png", tooltipText: "Any Season | Right of the bridge on the Beach OR Summer | Anywhere on the Beach", completed: false},
+          { id: "box5-m5-s3", name: "Sunflower", season: [SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "Bulletin_Board/Dye/Sunflower.png", tooltipText: "Summer / Fall crop", completed: false},
+          { id: "box5-m5-s4", name: "Duck Feather", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Dye/Duck_Feather.png", tooltipText: "Happy Ducks", completed: false},
+          { id: "box5-m5-s5", name: "Aquamarine", season: [SEASONS.ANY], amount: 1, image: "Bulletin_Board/Dye/Aquamarine.png", tooltipText: "(Gem Nodes / Aquamarine Nodes) after floor 40" },
+          { id: "box5-m5-s6", name: "Red Cabbage", season: [SEASONS.SUMMER], amount: 1, image: "Bulletin_Board/Dye/Red_Cabbage.png", tooltipText: "Summer Crop (sold by Pierre starting year 2) OR seeds sold at Traveling Cart", completed: false},
+          { id: "box5-m5-s7", name: "Persimmon", season: [SEASONS.FALL], amount: 1, image: "Bulletin_Board/Dye/Persimmon.png", tooltipText: "Persimmon Trees during Fall", completed: false},
         ],
       },
     ],
   },
 ];
+
 
 bulletinBoardData[0].bundles.forEach(bundle => {
   const mediumBox = document.getElementById(bundle.id);
@@ -632,7 +634,7 @@ const vaultData = [
         title: "G #1",
         required: 1,
         items: [
-          { id: "box6-m1-s1", name: "G", season: [SEASONS.ANY], amount: 2500, image: "SVEITEMS/Vault/G_#1/G.png", tooltipText: " ‎ ", completed: false},
+          { id: "box6-m1-s1", name: "G", season: [SEASONS.ANY], amount: 2500, image: "Vault/G_#1/G.png", tooltipText: " ‎ ", completed: false},
         ],
       },
       {
@@ -640,7 +642,7 @@ const vaultData = [
         title: "G #2",
         required: 1,
         items: [
-          { id: "box6-m2-s1", name: "G", season: [SEASONS.ANY], amount: 5000, image: "SVEITEMS/Vault/G_#2/G.png", tooltipText: " ‎ ", completed: false},
+          { id: "box6-m2-s1", name: "G", season: [SEASONS.ANY], amount: 5000, image: "Vault/G_#2/G.png", tooltipText: " ‎ ", completed: false},
         ],
       },
       {
@@ -648,7 +650,7 @@ const vaultData = [
         title: "G #3",
         required: 1,
         items: [
-          { id: "box6-m3-s1", name: "G", season: [SEASONS.ANY], amount: 10000, image: "SVEITEMS/Vault/G_#3/G.png", tooltipText: " ‎ ", completed: false},
+          { id: "box6-m3-s1", name: "G", season: [SEASONS.ANY], amount: 10000, image: "Vault/G_#3/G.png", tooltipText: " ‎ ", completed: false},
         ],
       },
       {
@@ -656,7 +658,7 @@ const vaultData = [
         title: "G #4",
         required: 1,
         items: [
-          { id: "box6-m4-s1", name: "G", season: [SEASONS.ANY], amount: 25000, image: "SVEITEMS/Vault/G_#4/G.png", tooltipText: " ‎ ", completed: false},
+          { id: "box6-m4-s1", name: "G", season: [SEASONS.ANY], amount: 25000, image: "Vault/G_#4/G.png", tooltipText: " ‎ ", completed: false},
         ],
       },
     ],
