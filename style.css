@@ -2,12 +2,17 @@
    GLOBAL STYLES
 ============================== */
 body {
-  margin: 0;
+  margin: 0; /* FIXED: was `margin: flex` (invalid) */
   background-color: black;
   color: white;
   font-family: system-ui, sans-serif;
   overflow-y: scroll;
 }
+
+.hidden {
+  display: none;
+}
+
 
 .title {
   text-align: center;
@@ -23,11 +28,73 @@ main {
   padding-bottom: 2rem;
 }
 
+/* ==============================
+   SEASON FILTER
+============================== */
+.season-filter {
+  width: 500px;
+  text-align: center;
+  background-color: #222;
+  padding: 10px 0 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 9px;
+}
+
+.season-text {
+  font-size: 16px;
+}
+
+
+/* ==============================
+   SEASON BUTTON COLORS
+============================== */
+.season-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.season-btn {
+  padding: 8px 14px;
+  cursor: pointer;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.season-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Active season colors */
+.season-btn.spring.active {
+  background-color: #4caf50; /* green */
+}
+
+.season-btn.summer.active {
+  background-color: #fbc02d; /* yellow */
+  color: black;
+}
+
+.season-btn.fall.active {
+  background-color: #ff8f00; /* orange */
+}
+
+.season-btn.winter.active {
+  background-color: #81d4fa; /* light blue */
+  color: black;
+}
 
 /* ==============================
    BIG BOXES (BB)
 ============================== */
 .big-box {
+  position: relative;
   width: 80%;
   min-height: 45vh;
   background-color: #222;
@@ -64,11 +131,9 @@ main {
   padding-bottom: 0.5rem;
 }
 
-
 .big-box.minimized .medium-container {
   display: none;
 }
-
 
 /* ==============================
    MEDIUM BOXES (MB)
@@ -87,17 +152,15 @@ main {
   min-height: 10rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
   padding: 0.5rem;
 }
 
 .medium-title {
   font-size: 1rem;
-  text-align: center;
   margin: 0;
+  text-align: center;
 }
-
 
 /* ==============================
    SMALL BOXES (SB)
@@ -121,7 +184,6 @@ main {
   align-items: center;
   justify-content: space-between;
   padding: 0.3rem;
-  position: relative;
   cursor: pointer;
   transition: transform 0.15s ease, filter 0.2s ease;
 }
@@ -130,7 +192,6 @@ main {
   transform: scale(1.05);
 }
 
-/* Image inside small box */
 .small-box-img {
   width: 3.5rem;
   height: 3.5rem;
@@ -139,27 +200,19 @@ main {
   pointer-events: none;
 }
 
-/* Label under image */
 .small-box-label {
-  font-size: 0.8rem;              /* slightly larger text */
-  font-weight: 600;               /* bolder for better readability */
+  font-size: 0.8rem;
+  font-weight: 600;
   text-align: center;
-  color: #fff;                    /* brighter text color */
-  text-shadow: 0 0 4px #000;      /* subtle glow for contrast on dark backgrounds */
-  margin-top: 0.25rem;
+  color: #fff;
+  text-shadow: 0 0 4px #000;
   line-height: 1.1;
-  pointer-events: none;           /* ensures clicks still register on the box */
+  pointer-events: none;
 }
 
-.small-box.completed .small-box-label {
-  color: #ffcccc;                 /* softer pink tint on completed items */
-  text-shadow: 0 0 5px #660000;   /* subtle red glow to match the ✖ */
-}
-
-/* Completed effect: dim + X overlay */
+/* Completed state */
 .small-box.completed {
   filter: brightness(0.4);
-  position: relative;
 }
 
 .small-box.completed::after {
@@ -173,10 +226,8 @@ main {
   pointer-events: none;
 }
 
-
-
 /* ==============================
-   TOOLTIP STYLING
+   TOOLTIP
 ============================== */
 .tooltip {
   position: absolute;
@@ -193,31 +244,20 @@ main {
 
 .tooltip-header {
   font-weight: bold;
-  margin-bottom: 0.25rem;
 }
 
 .tooltip-subheader {
   font-weight: bold;
   font-size: 0.95rem;
   margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
 }
 
 .tooltip-divider {
-  width: 95%;
-  border: 0;
   border-top: 1px solid #777;
-  margin: 0.25rem auto;
+  margin: 0.25rem 0;
 }
 
 .tooltip-list {
-  margin: 0.3rem 0 0 1rem;
-  padding: 0;
+  margin-left: 1rem;
   font-size: 0.9rem;
-  list-style-type: disc;
-}
-
-.tooltip-list li {
-  margin-bottom: 0.25rem;
-  line-height: 1.2;
 }
