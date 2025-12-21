@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>SVE Checklist</title>
-
-  <!-- Link to your CSS -->
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+  <!-- HEADER -->
   <header>
     <h1 class="title">Stardew Valley Expanded Bundles</h1>
+
+    <div class="season-filter">
+      <p class="season-text">Choose A Season</p>
+      <div class="season-buttons">
+        <button class="season-btn" data-season="Spring">Spring</button>
+        <button class="season-btn" data-season="Summer">Summer</button>
+        <button class="season-btn" data-season="Fall">Fall</button>
+        <button class="season-btn" data-season="Winter">Winter</button>
+      </div>
+    </div>
   </header>
 
+  <!-- MAIN CONTENT -->
   <main>
+
     <!-- BOX 1 -->
     <section id="box1" class="big-box">
       <button class="minimize-btn"></button>
@@ -92,9 +103,11 @@
         <div id="box6-m4" class="medium-box"><h3 class="medium-title">Placeholder</h3></div>
       </div>
     </section>
+
   </main>
 
-  <!-- Link to your JS file -->
-  <script src="./script.js"></script>
+  <!-- SCRIPT -->
+  <script src="script.js" defer></script>
+
 </body>
 </html>
