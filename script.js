@@ -433,9 +433,9 @@ const boilerRoomData = [
         title: "Blacksmith's",
         required: 3,
         items: [
-          { id: "box4-m1-s1", name: "Copper Bar", season: [SEASONS.ANY], amount: 1, image: "Blacksmith's/Copper_Bar.png", tooltipText: "5 Copper into Furnace", completed: false},
-          { id: "box4-m1-s2", name: "Iron Bar", season: [SEASONS.ANY], amount: 1, image: "Blacksmith's/Iron_Bar.png", tooltipText: "5 Iron into Furnace", completed: false},
-          { id: "box4-m1-s3", name: "Gold Bar", season: [SEASONS.ANY], amount: 1, image: "Blacksmith's/Gold_Bar.png", tooltipText: "5 Gold into Furnace", completed: false},
+          { id: "box4-m1-s1", name: "Copper Bar", season: [SEASONS.ANY], amount: 1, image: "Blacksmith/Copper_Bar.png", tooltipText: "5 Copper into Furnace", completed: false},
+          { id: "box4-m1-s2", name: "Iron Bar", season: [SEASONS.ANY], amount: 1, image: "Blacksmith/Iron_Bar.png", tooltipText: "5 Iron into Furnace", completed: false},
+          { id: "box4-m1-s3", name: "Gold Bar", season: [SEASONS.ANY], amount: 1, image: "Blacksmith/Gold_Bar.png", tooltipText: "5 Gold into Furnace", completed: false},
         ],
       },
       {
@@ -443,10 +443,10 @@ const boilerRoomData = [
         title: "Geologist's",
         required: 4,
         items: [
-          { id: "box4-m2-s1", name: "Quartz", season: [SEASONS.ANY], amount: 1, image: "Geologist's/Quartz.png", tooltipText: "Foraging in Mines OR Stone Golems (floors 31–39, 10% Chance)", completed: false},
-          { id: "box4-m2-s2", name: "Earth Crystal", season: [SEASONS.ANY], amount: 1, image: "Geologist's/Earth_Crystal.png", tooltipText: "Foraging in Mines (floors 1–39) OR Geodes / Omni-Geodes OR Duggies (10% Chance)", completed: false},
-          { id: "box4-m2-s3", name: "Frozen Tear", season: [SEASONS.ANY], amount: 1, image: "Geologist's/Frozen_Tear.png", tooltipText: "Foraging in Mines (floors 41–79) OR Frozen Geodes / Omni-Geodes OR Dust Mites (2% Chance)", completed: false},
-          { id: "box4-m2-s4", name: "Fire Quartz", season: [SEASONS.ANY], amount: 1, image: "Geologist's/Fire_Quartz.png", tooltipText: "Foraging in Mines (floors 80+) OR Magma Geodes / Omni-Geodes", completed: false},
+          { id: "box4-m2-s1", name: "Quartz", season: [SEASONS.ANY], amount: 1, image: "Geologist/Quartz.png", tooltipText: "Foraging in Mines OR Stone Golems (floors 31–39, 10% Chance)", completed: false},
+          { id: "box4-m2-s2", name: "Earth Crystal", season: [SEASONS.ANY], amount: 1, image: "Geologist/Earth_Crystal.png", tooltipText: "Foraging in Mines (floors 1–39) OR Geodes / Omni-Geodes OR Duggies (10% Chance)", completed: false},
+          { id: "box4-m2-s3", name: "Frozen Tear", season: [SEASONS.ANY], amount: 1, image: "Geologist/Frozen_Tear.png", tooltipText: "Foraging in Mines (floors 41–79) OR Frozen Geodes / Omni-Geodes OR Dust Mites (2% Chance)", completed: false},
+          { id: "box4-m2-s4", name: "Fire Quartz", season: [SEASONS.ANY], amount: 1, image: "Geologist/Fire_Quartz.png", tooltipText: "Foraging in Mines (floors 80+) OR Magma Geodes / Omni-Geodes", completed: false},
         ],
       },
       {
@@ -454,10 +454,10 @@ const boilerRoomData = [
         title: "Adventurer's",
         required: 2,
         items: [
-          { id: "box4-m3-s1", name: "Slime", season: [SEASONS.ANY], amount: 99, image: "Adventurer's/Slime.png", tooltipText: "Killing Slimes in Mines (Any Floor)", completed: false},
-          { id: "box4-m3-s2", name: "Bat Wings", season: [SEASONS.ANY], amount: 10, image: "Adventurer's/Bat_Wings.png", tooltipText: "Killing Bats in Mines (Any Floor past 30)", completed: false},
-          { id: "box4-m3-s3", name: "Solar Essence", season: [SEASONS.ANY], amount: 1, image: "Adventurer's/Solar_Essence.png", tooltipText: "Ghosts (51–79) OR Metal Heads (81–119) OR Squid Kids (91–119)", completed: false},
-          { id: "box4-m3-s4", name: "Void Essence", season: [SEASONS.ANY], amount: 1, image: "Adventurer's/Void_Essence.png", tooltipText: "Shadow Brutes / Shamans (Floors 80+)", completed: false},
+          { id: "box4-m3-s1", name: "Slime", season: [SEASONS.ANY], amount: 99, image: "Adventurer/Slime.png", tooltipText: "Killing Slimes in Mines (Any Floor)", completed: false},
+          { id: "box4-m3-s2", name: "Bat Wings", season: [SEASONS.ANY], amount: 10, image: "Adventurer/Bat_Wings.png", tooltipText: "Killing Bats in Mines (Any Floor past 30)", completed: false},
+          { id: "box4-m3-s3", name: "Solar Essence", season: [SEASONS.ANY], amount: 1, image: "Adventurer/Solar_Essence.png", tooltipText: "Ghosts (51–79) OR Metal Heads (81–119) OR Squid Kids (91–119)", completed: false},
+          { id: "box4-m3-s4", name: "Void Essence", season: [SEASONS.ANY], amount: 1, image: "Adventurer/Void_Essence.png", tooltipText: "Shadow Brutes / Shamans (Floors 80+)", completed: false},
         ],
       },
     ],
@@ -519,13 +519,13 @@ const bulletinBoardData = [
         title: "Chef's",
         required: 7,
         items: [
-          { id: "box5-m1-s1", name: "Maple Syrup", season: [SEASONS.ANY], amount: 1, image: "Chef's/Maple_Syrup.png", tooltipText: "Placing Tapper on Maple Tree OR Sold from Bear", completed: false},
-          { id: "box5-m1-s2", name: "Fiddlehead Fern", season: [SEASONS.SUMMER], amount: 1, image: "Chef's/Fiddlehead_Fern.png", tooltipText: "Summer | Foraging in Secret Woods", completed: false},
-          { id: "box5-m1-s3", name: "Truffle", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "Chef's/Truffle.png", tooltipText: "Not Winter | Happy Pigs outside", completed: false},
-          { id: "box5-m1-s4", name: "Poppy", season: [SEASONS.SUMMER], amount: 1, image: "Chef's/Poppy.png", tooltipText: "Summer Crop", completed: false},
-          { id: "box5-m1-s5", name: "Maki Roll", season: [SEASONS.ANY], amount: 1, image: "Chef's/Maki_Roll.png", tooltipText: "Cooking (need recipe from TV Show) OR Occasionally sold by Gus OR Occasionally sold by Krobus on Saturdays", completed: false},
-          { id: "box5-m1-s6", name: "Fried Egg", season: [SEASONS.ANY], amount: 1, image: "Chef's/Fried_Egg.png", tooltipText: "Cooking OR Occasionally sold by Gus OR Occasionally sold by Krobus on Saturdays", completed: false},
-          { id: "box5-m1-s7", name: "Candy", season: [SEASONS.ANY], amount: 1, image: "Chef's/Candy.png", tooltipText: "Cooking (need recipe sold by Gus)", completed: false},
+          { id: "box5-m1-s1", name: "Maple Syrup", season: [SEASONS.ANY], amount: 1, image: "Chef/Maple_Syrup.png", tooltipText: "Placing Tapper on Maple Tree OR Sold from Bear", completed: false},
+          { id: "box5-m1-s2", name: "Fiddlehead Fern", season: [SEASONS.SUMMER], amount: 1, image: "Chef/Fiddlehead_Fern.png", tooltipText: "Summer | Foraging in Secret Woods", completed: false},
+          { id: "box5-m1-s3", name: "Truffle", season: [SEASONS.SPRING, SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "Chef/Truffle.png", tooltipText: "Not Winter | Happy Pigs outside", completed: false},
+          { id: "box5-m1-s4", name: "Poppy", season: [SEASONS.SUMMER], amount: 1, image: "Chef/Poppy.png", tooltipText: "Summer Crop", completed: false},
+          { id: "box5-m1-s5", name: "Maki Roll", season: [SEASONS.ANY], amount: 1, image: "Chef/Maki_Roll.png", tooltipText: "Cooking (need recipe from TV Show) OR Occasionally sold by Gus OR Occasionally sold by Krobus on Saturdays", completed: false},
+          { id: "box5-m1-s6", name: "Fried Egg", season: [SEASONS.ANY], amount: 1, image: "Chef/Fried_Egg.png", tooltipText: "Cooking OR Occasionally sold by Gus OR Occasionally sold by Krobus on Saturdays", completed: false},
+          { id: "box5-m1-s7", name: "Candy", season: [SEASONS.ANY], amount: 1, image: "Chef/Candy.png", tooltipText: "Cooking (need recipe sold by Gus)", completed: false},
         ],
       },
       {
@@ -543,11 +543,11 @@ const bulletinBoardData = [
         title: "Enchanter's",
         required: 5,
         items: [
-          { id: "box5-m3-s1", name: "Oak Resin", season: [SEASONS.ANY], amount: 1, image: "Enchanter's/Oak_Resin.png", tooltipText: "Placing Tapper on Oak Tree OR Sold from Bear", completed: false},
-          { id: "box5-m3-s2", name: "Wine", season: [SEASONS.ANY], amount: 1, image: "Enchanter's/Wine.png", tooltipText: "Placing Fruit inside a Keg", completed: false},
-          { id: "box5-m3-s3", name: "Rabbit's Foot", season: [SEASONS.ANY], amount: 1, image: "Enchanter's/Rabbit's_Foot.png", tooltipText: "Happy Rabbits OR Traveling Cart", completed: false},
-          { id: "box5-m3-s4", name: "Pomegranate", season: [SEASONS.FALL], amount: 1, image: "Enchanter's/Pomegranate.png", tooltipText: "Pomegranate trees during Fall OR Fruit Bat Cave on Farm", completed: false},
-          { id: "box5-m3-s5", name: "Four Leaf Clover", season: [SEASONS.SPRING, SEASONS.SUMMER], amount: 1, image: "Enchanter's/Four_Leaf_Clover.png", tooltipText: "Spring / Summer | Secret Woods", completed: false},
+          { id: "box5-m3-s1", name: "Oak Resin", season: [SEASONS.ANY], amount: 1, image: "Enchanter/Oak_Resin.png", tooltipText: "Placing Tapper on Oak Tree OR Sold from Bear", completed: false},
+          { id: "box5-m3-s2", name: "Wine", season: [SEASONS.ANY], amount: 1, image: "Enchanter/Wine.png", tooltipText: "Placing Fruit inside a Keg", completed: false},
+          { id: "box5-m3-s3", name: "Rabbit's Foot", season: [SEASONS.ANY], amount: 1, image: "Enchanter/Rabbit's_Foot.png", tooltipText: "Happy Rabbits OR Traveling Cart", completed: false},
+          { id: "box5-m3-s4", name: "Pomegranate", season: [SEASONS.FALL], amount: 1, image: "Enchanter/Pomegranate.png", tooltipText: "Pomegranate trees during Fall OR Fruit Bat Cave on Farm", completed: false},
+          { id: "box5-m3-s5", name: "Four Leaf Clover", season: [SEASONS.SPRING, SEASONS.SUMMER], amount: 1, image: "Enchanter/Four_Leaf_Clover.png", tooltipText: "Spring / Summer | Secret Woods", completed: false},
         ],
       },
       {
@@ -555,7 +555,7 @@ const bulletinBoardData = [
         title: "Field Research",
         required: 5,
         items: [
-          { id: "box5-m4-s1", name: "Purple Mushroom", season: [SEASONS.ANY], amount: 1, image: "Field_Research/Purple_Mushroom.png", tooltipText: "Foraging in caves starting floor 81 OR Mushroom Cave on Farm (rare)", completed: false},
+          { id: "box5-m4-s1", name: "Purple Mushroom", season: [SEASONS.ANY], amount: 1, image: "Field_Research/Purple_Mushroom (1).png", tooltipText: "Foraging in caves starting floor 81 OR Mushroom Cave on Farm (rare)", completed: false},
           { id: "box5-m4-s2", name: "Nautilus Shell", season: [SEASONS.WINTER], amount: 1, image: "Field_Research/Nautilus_Shell.png", tooltipText: "Winter | Foraging at the Beach", completed: false},
           { id: "box5-m4-s3", name: "Chub", season: [SEASONS.ANY], amount: 1, image: "Field_Research/Chub.png", tooltipText: "Any Season | Moutain Lake / Forest River | Any Weather | All Day", completed: false},
           { id: "box5-m4-s4", name: "Frozen Geode", season: [SEASONS.ANY], amount: 1, image: "Field_Research/Frozen_Geode.png", tooltipText: "Mining in floors 41-79 OR Treasure from fishing", completed: false},
@@ -567,7 +567,7 @@ const bulletinBoardData = [
         title: "Dye",
         required: 7,
         items: [
-          { id: "box5-m5-s1", name: "Red Mushroom", season: [SEASONS.SUMMER, SEASONS.FALL, SEASONS.ANY], amount: 1, image: "Dye/Red_Mushroom.png", tooltipText: "Foraging in caves on mushroom floors (chance to spawn starting floor 81) OR Secret Woods Foragable (Summer/Fall) OR Mushroom Cave on Farm", completed: false},
+          { id: "box5-m5-s1", name: "Red Mushroom", season: [SEASONS.SUMMER, SEASONS.FALL, SEASONS.ANY], amount: 1, image: "Dye/Red_Mushroom (1).png", tooltipText: "Foraging in caves on mushroom floors (chance to spawn starting floor 81) OR Secret Woods Foragable (Summer/Fall) OR Mushroom Cave on Farm", completed: false},
           { id: "box5-m5-s2", name: "Sea Urchin", season: [SEASONS.ANY, SEASONS.SUMMER], amount: 1, image: "Dye/Sea_Urchin.png", tooltipText: "Any Season | Right of the bridge on the Beach OR Summer | Anywhere on the Beach", completed: false},
           { id: "box5-m5-s3", name: "Sunflower", season: [SEASONS.SUMMER, SEASONS.FALL], amount: 1, image: "Dye/Sunflower.png", tooltipText: "Summer / Fall crop", completed: false},
           { id: "box5-m5-s4", name: "Duck Feather", season: [SEASONS.ANY], amount: 1, image: "Dye/Duck_Feather.png", tooltipText: "Happy Ducks", completed: false},
@@ -863,11 +863,11 @@ THINGS TO CHANGE BEFORE DEADLINE
 
 4. " ? " circle in bottom left corner, explaining changes made and how stuff works
 
-5. " 🤑 " emoji in the bottom right corner, shameless plug to support me (may need to make it a image if the emoji stays italizaed (or js rotate the emoji)"
+5. " 🤑 " emoji in the bottom right corner, shameless plug to support me (may need to make it a image if the emoji stays italizaed (or js rotate the emoji)
 
 6. Exclusitivty or accessible feature for seasons sorter. 
 
-7.
+7. Feild Research purple mushroom and Dye red mushroom file names having a space between them and the (1) (there should be no space)
 
 
 
