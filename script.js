@@ -195,13 +195,13 @@ const pantryData = [
         title: "Quality Crops",
         required: 5,
         items: [
-          { id: "box2-m4-s1", name: "Gold quality Parsnip", amount: 5, image: "Quality_Crops/Gold_quality_Parsnip.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
-          { id: "box2-m4-s2", name: "Gold quality Melon", amount: 5, image: "Quality_Crops/Gold_quality_Melon.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
-          { id: "box2-m4-s3", name: "Gold quality Pumpkin", amount: 5, image: "Quality_Crops/Gold_quality_Pumpkin.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false},
-          { id: "box2-m4-s4", name: "Gold quality Corn", amount: 5, image: "Quality_Crops/Gold_quality_Corn.png", tooltipText: "Summer Crop OR Fall Crop", season: [SEASONS.SUMMER, SEASONS.FALL], completed: false},
-          { id: "box2-m4-s5", name: "Gold quality Cucumber", amount: 5, image: "Quality_Crops/Gold_quality_Cucumber.png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
-          { id: "box2-m4-s6", name: "Gold quality Butternut Squash", amount: 5, image: "Quality_Crops/Gold_quality_Butternut_Squash.png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
-          { id: "box2-m4-s7", name: "Gold quality Sweet Potato", amount: 5, image: "Quality_Crops/Gold_quality_Sweet_Potato.png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false}
+          { id: "box2-m4-s1", name: "Gold quality Parsnip", amount: 5, image: "Quality_Crops/Parsnip(1).png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
+          { id: "box2-m4-s2", name: "Gold quality Melon", amount: 5, image: "Quality_Crops/Melon(1).png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
+          { id: "box2-m4-s3", name: "Gold quality Pumpkin", amount: 5, image: "Quality_Crops/Pumpkin(1).png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false},
+          { id: "box2-m4-s4", name: "Gold quality Corn", amount: 5, image: "Quality_Crops/Corn(1).png", tooltipText: "Summer Crop OR Fall Crop", season: [SEASONS.SUMMER, SEASONS.FALL], completed: false},
+          { id: "box2-m4-s5", name: "Gold quality Cucumber", amount: 5, image: "Quality_Crops/Cucumber(1).png", tooltipText: "Spring Crop", season: [SEASONS.SPRING], completed: false},
+          { id: "box2-m4-s6", name: "Gold quality Butternut Squash", amount: 5, image: "Quality_Crops/Butternut_Squash(1).png", tooltipText: "Summer Crop", season: [SEASONS.SUMMER], completed: false},
+          { id: "box2-m4-s7", name: "Gold quality Sweet Potato", amount: 5, image: "Quality_Crops/Sweet_Potato(1).png", tooltipText: "Fall Crop", season: [SEASONS.FALL], completed: false}
         ]
       },
       {
@@ -213,8 +213,8 @@ const pantryData = [
           { id: "box2-m5-s2", name: "Large Goat Milk", amount: 1, image: "Animal/Large_Goat_Milk.png", tooltipText: "Happy Goats", season: [SEASONS.ANY], completed: false},
           { id: "box2-m5-s3", name: "Wool", amount: 1, image: "Animal/Wool.png", tooltipText: "Rabbits OR Sheep", season: [SEASONS.ANY], completed: false},
           { id: "box2-m5-s4", name: "Duck Egg", amount: 1, image: "Animal/Duck_Egg.png", tooltipText: "Ducks", season: [SEASONS.ANY], completed: false},
-          { id: "box2-m5-s5", name: "Large Egg (white)", amount: 1, image: "Animal/Large_Egg_(white).png", tooltipText: "Happy White Chickens", season: [SEASONS.ANY], completed: false},
-          { id: "box2-m5-s6", name: "Large Egg (brown)", amount: 1, image: "Animal/Large_Egg_(brown).png", tooltipText: "Happy Brown Chickens", season: [SEASONS.ANY], completed: false}
+          { id: "box2-m5-s5", name: "Large Egg (white)", amount: 1, image: "Animal/Large_Egg.png", tooltipText: "Happy White Chickens", season: [SEASONS.ANY], completed: false},
+          { id: "box2-m5-s6", name: "Large Egg (brown)", amount: 1, image: "Animal/Large_Brown_Egg.png", tooltipText: "Happy Brown Chickens", season: [SEASONS.ANY], completed: false}
         ]
       },
       {
