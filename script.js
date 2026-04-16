@@ -10,6 +10,23 @@ document.addEventListener("DOMContentLoaded", () => {
   ANY: "Any"
 };
 
+
+  function setupBundle(bundle) {
+  const mediumBox = document.getElementById(bundle.id);
+  if (!mediumBox) return;
+
+  // Set medium box title with 0/x
+  const titleElement = mediumBox.querySelector(".medium-title");
+  titleElement.textContent = `0/${bundle.required} ${bundle.title}`;
+
+  // Create container for small boxes (only once)
+  const smallContainer = document.createElement("div");
+  smallContainer.className = "small-container";
+  mediumBox.appendChild(smallContainer);
+
+  return smallContainer;
+}
+
 // --- Start of Crafts Room (BB1) Code ---
   
 
@@ -103,19 +120,18 @@ const craftsRoomData = [
   
   //GOTTA CLEAN UP
   
-  
-craftsRoomData[0].bundles.forEach(bundle => {
-  const mediumBox = document.getElementById(bundle.id);
+   /* =================
+   DUPLICATE FOUND
+   =================*/
 
-  // Set medium box title with 0/x
-  const titleElement = mediumBox.querySelector(".medium-title");
-  titleElement.textContent = `0/${bundle.required} ${bundle.title}`;
+  craftsRoomData[0].bundles.forEach(bundle => {
+  const smallContainer = setupBundle(bundle);
 
-  // Create container for small boxes
-  const smallContainer = document.createElement("div");
-  smallContainer.className = "small-container";
-  mediumBox.appendChild(smallContainer);
-
+  // later: small boxes go here
+});
+ /* =================
+   DUPLICATE FOUND
+   =================*/
   // Generate small boxes
   bundle.items.forEach(item => {
     const smallBox = document.createElement("div");
@@ -374,20 +390,16 @@ const fishTankData = [
   },
 ];
 
-
+  /* =================
+   DUPLICATE FOUND
+   =================*/
 
 fishTankData[0].bundles.forEach(bundle => {
-  const mediumBox = document.getElementById(bundle.id);
-
-  // Set medium box title with 0/x
-  const titleElement = mediumBox.querySelector(".medium-title");
-  titleElement.textContent = `0/${bundle.required} ${bundle.title}`;
-
-  // Create container for small boxes
-  const smallContainer = document.createElement("div");
-  smallContainer.className = "small-container";
-  mediumBox.appendChild(smallContainer);
-
+  const smallContainer = setupBundle(bundle);
+  /* =================
+   DUPLICATE FOUND
+   =================*/
+  
   // Generate small boxes
   bundle.items.forEach(item => {
     const smallBox = document.createElement("div");
@@ -463,19 +475,15 @@ const boilerRoomData = [
     ],
   },
 ];
+  /* =================
+   DUPLICATE FOUND
+   =================*/
 
 boilerRoomData[0].bundles.forEach(bundle => {
-  const mediumBox = document.getElementById(bundle.id);
-
-  // Set medium box title with 0/x
-  const titleElement = mediumBox.querySelector(".medium-title");
-  titleElement.textContent = `0/${bundle.required} ${bundle.title}`;
-
-  // Create container for small boxes
-  const smallContainer = document.createElement("div");
-  smallContainer.className = "small-container";
-  mediumBox.appendChild(smallContainer);
-
+  const smallContainer = setupBundle(bundle);
+    /* =================
+   DUPLICATE FOUND
+   =================*/
   // Generate small boxes
   bundle.items.forEach(item => {
     const smallBox = document.createElement("div");
@@ -579,17 +587,18 @@ const bulletinBoardData = [
     ],
   },
 ];
+  /* =================
+   DUPLICATE FOUND
+   =================*/
 
 
-bulletinBoardData[0].bundles.forEach(bundle => {
-  const mediumBox = document.getElementById(bundle.id);
-  const titleElement = mediumBox.querySelector(".medium-title");
-  titleElement.textContent = `0/${bundle.required} ${bundle.title}`;
+  bulletinBoardData[0].bundles.forEach(bundle => {
+  const smallContainer = setupBundle(bundle);
+  /* =================
+   DUPLICATE FOUND
+   =================*/
 
-  const smallContainer = document.createElement("div");
-  smallContainer.className = "small-container";
-  mediumBox.appendChild(smallContainer);
-
+  
   bundle.items.forEach(item => {
     const smallBox = document.createElement("div");
     smallBox.className = "small-box";
@@ -666,18 +675,18 @@ const vaultData = [
   },
 ];
 
-vaultData[0].bundles.forEach(bundle => {
-  const mediumBox = document.getElementById(bundle.id);
 
-  // Set medium box title with 0/x
-  const titleElement = mediumBox.querySelector(".medium-title");
-  titleElement.textContent = `0/${bundle.required} ${bundle.title}`;
+    /* =================
+   DUPLICATE FOUND
+   =================*/
 
-  // Create container for small boxes
-  const smallContainer = document.createElement("div");
-  smallContainer.className = "small-container";
-  mediumBox.appendChild(smallContainer);
+  vaultData[0].bundles.forEach(bundle => {
+  const smallContainer = setupBundle(bundle);
 
+    /* =================
+   DUPLICATE FOUND
+   =================*/
+  
   // Generate small boxes
   bundle.items.forEach(item => {
     const smallBox = document.createElement("div");
