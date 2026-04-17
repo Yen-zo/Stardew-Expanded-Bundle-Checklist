@@ -128,7 +128,7 @@ const craftsRoomData = [
   const smallContainer = setupBundle(bundle);
 
   // later: small boxes go here
-});
+
  /* =================
    DUPLICATE FOUND
    =================*/
@@ -159,8 +159,9 @@ const craftsRoomData = [
     smallBox.dataset.tooltipText = item.tooltipText || "";
 
     smallContainer.appendChild(smallBox);
+ });
   });
-});
+
 // --- End of Crafts Room (BB1) Code ---
 
   
